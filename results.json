@@ -1,0 +1,84 @@
+[
+  {
+    "question": "How does the multi-head attention mechanism work in the Transformer?",
+    "answered": true,
+    "best_rerank_score": 1.0,
+    "citations": [
+      {
+        "source": "1706.03762",
+        "chunk_id": "1706.03762#8",
+        "rerank_score": 1.0,
+        "excerpt": "mplexity, dot-product attention is\nmuch faster and more space-efficient in practice, since it can be implemented using highly optimized\nmatrix multiplication code.\nWhile for small values of dk the two mechanisms perform similarly, additive attention outperforms\ndot product attention without scaling for larger values of dk [3]. We suspect that for large values of\ndk, the dot products grow large in "
+      },
+      {
+        "source": "1706.03762",
+        "chunk_id": "1706.03762#3",
+        "rerank_score": 0.995,
+        "excerpt": "iency through factorization tricks [21] and conditional\ncomputation [32], while also improving model performance in case of the latter. The fundamental\nconstraint of sequential computation, however, remains.\nAttention mechanisms have become an integral part of compelling sequence modeling and transduc-\ntion models in various tasks, allowing modeling of dependencies without regard to their distance"
+      },
+      {
+        "source": "1706.03762",
+        "chunk_id": "1706.03762#5",
+        "rerank_score": 0.985,
+        "excerpt": "output without using sequence-\naligned RNNs or convolution. In the following sections, we will describe the Transformer, motivate\nself-attention and discuss its advantages over models such as [17, 18] and [9].\n3 Model Architecture\nMost competitive neural sequence transduction models have an encoder-decoder structure [5, 2, 35].\nHere, the encoder maps an input sequence of symbol representations (x1"
+      }
+    ]
+  },
+  {
+    "question": "What two tasks is BERT pre-trained on?",
+    "answered": true,
+    "best_rerank_score": 0.998,
+    "citations": [
+      {
+        "source": "1810.04805",
+        "chunk_id": "1810.04805#0",
+        "rerank_score": 0.998,
+        "excerpt": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding\nJacob Devlin Ming-Wei Chang Kenton Lee Kristina Toutanova\nGoogle AI Language\n{jacobdevlin,mingweichang,kentonl,kristout}@google.com\nAbstract\nWe introduce a new language representa-\ntion model called BERT, which stands for\nBidirectional Encoder Representations from\nTransformers. Unlike recent language repre-\nsentation "
+      },
+      {
+        "source": "1810.04805",
+        "chunk_id": "1810.04805#7",
+        "rerank_score": 0.987,
+        "excerpt": "ures for BERT. Apart from output layers, the same architec-\ntures are used in both pre-training and \ufb01ne-tuning. The same pre-trained model parameters are used to initialize\nmodels for different down-stream tasks. During \ufb01ne-tuning, all parameters are \ufb01ne-tuned. [CLS] is a special\nsymbol added in front of every input example, and [SEP] is a special separator token (e.g. separating ques-\ntions/answe"
+      },
+      {
+        "source": "1810.04805",
+        "chunk_id": "1810.04805#6",
+        "rerank_score": 0.985,
+        "excerpt": "s of text generation mod-\nels.\n2.2 Unsupervised Fine-tuning Approaches\nAs with the feature-based approaches, the \ufb01rst\nworks in this direction only pre-trained word em-\nbedding parameters from unlabeled text (Col-\nlobert and Weston, 2008).\nMore recently, sentence or document encoders\nwhich produce contextual token representations\nhave been pre-trained from unlabeled text and\n\ufb01ne-tuned for a supervi"
+      }
+    ]
+  },
+  {
+    "question": "What makes XGBoost scale to billions of examples?",
+    "answered": true,
+    "best_rerank_score": 0.973,
+    "citations": [
+      {
+        "source": "1603.02754",
+        "chunk_id": "1603.02754#33",
+        "rerank_score": 0.973,
+        "excerpt": "nodes for 10 iterations on di\ufb00erent\nsubset of criteo data. XGBoost runs more 10x than\nspark per iteration and 2.2x as H2O\u2019s optimized ver-\nsion (However, H2O is slow in loading the data, get-\nting worse end-to-end time). Note that spark su\ufb00ers\nfrom drastic slow down when running out of mem-\nory. XGBoost runs faster and scales smoothly to\nthe full 1.7 billion examples with given resources by\nutiliz"
+      },
+      {
+        "source": "1603.02754",
+        "chunk_id": "1603.02754#0",
+        "rerank_score": 0.959,
+        "excerpt": "XGBoost: A Scalable Tree Boosting System\nTianqi Chen\nUniversity of Washington\ntqchen@cs.washington.edu\nCarlos Guestrin\nUniversity of Washington\nguestrin@cs.washington.edu\nABSTRACT\nTree boosting is a highly e\ufb00ective and widely used machine\nlearning method. In this paper, we describe a scalable end-\nto-end tree boosting system called XGBoost, which is used\nwidely by data scientists to achieve state-"
+      },
+      {
+        "source": "1603.02754",
+        "chunk_id": "1603.02754#3",
+        "rerank_score": 0.955,
+        "excerpt": "ms. Examples of\nthe problems in these winning solutions include: store sales\nprediction; high energy physics event classi\ufb01cation; web text\nclassi\ufb01cation; customer behavior prediction; motion detec-\ntion; ad click through rate prediction; malware classi\ufb01cation;\nproduct categorization; hazard risk prediction; massive on-\nline course dropout rate prediction. While domain depen-\ndent data analysis and"
+      }
+    ]
+  },
+  {
+    "question": "What is the capital of France?",
+    "answered": false,
+    "best_rerank_score": 0.001,
+    "message": "Insufficient evidence in the corpus to answer with citations.",
+    "citations": []
+  }
+]
