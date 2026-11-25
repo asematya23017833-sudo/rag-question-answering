@@ -1,4 +1,1 @@
-__pycache__/
-*.pyc
-.streamlit/
-.DS_Store
+data/pdfs/
